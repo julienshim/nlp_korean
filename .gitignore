@@ -1,0 +1,6 @@
+**/.env
+**/node_modules
+**/config
+**/.DS_Store
+**/venv
+**/*.csv
