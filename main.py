@@ -16,3 +16,15 @@ for txt_filename in target_txts[0:2]:
     cmd = f'python3 ./src/generate_vocab_csv_from_txt.py {txt_path}'
     print('\t'.join(['RUNNING:', cmd]))
     system(cmd)
+
+# Generate Vocabulary Lists for Manually Created TXT
+target_txts_special = '<target_files_location>'
+for txt_filename in target_txts_special[0:2]:
+    txt_path = path.join('<target_files_location>', txt_filename)
+    cmd = f'python3 ./src/generate_vocab_csv_from_txt.py {txt_path}'
+    print('\t'.join(['RUNNING:', cmd]))
+    system(cmd)
+
+
+
+
